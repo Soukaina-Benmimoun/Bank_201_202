@@ -34,24 +34,12 @@
     <h2 class="text-2xl font-bold mb-4">Bienvenue sur le tableau de bord</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div class="bg-white p-6 rounded-lg shadow-md">
-            <h3 class="text-lg font-semibold mb-2">Liste des Virements</h3>
-            <a href="{{route('virements.index')}}" class="text-blue-500 hover:text-blue-700">Voir la liste</a>
+            <h3 class="text-lg font-semibold mb-2">Liste des Clients</h3>
+            <a href="{{route('users.index')}}" class="text-blue-500 hover:text-blue-700">Voir la liste</a>
         </div>
         <div class="bg-white p-6 rounded-lg shadow-md">
-            <h3 class="text-lg font-semibold mb-2">Passer un Virement</h3>
-            <a href="{{route('virements.create')}}" class="text-blue-500 hover:text-blue-700">Passer virement</a>
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow-md">
-            <h3 class="text-lg font-semibold mb-2">Effectuer un Retrait</h3>
-            <a href="{{route('retrait.create')}}" class="text-blue-500 hover:text-blue-700">Créer un retrait</a>
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow-md">
-            <h3 class="text-lg font-semibold mb-2">Lists des Dons</h3>
-            <a href="{{route('retrait.create')}}" class="text-blue-500 hover:text-blue-700">Créer un retrait</a>
-        </div>
-        <div class="bg-white p-6 rounded-lg shadow-md">
-            <h3 class="text-lg font-semibold mb-2">Effectuer un Don</h3>
-            <a href="{{route('retrait.create')}}" class="text-blue-500 hover:text-blue-700">Créer un retrait</a>
+            <h3 class="text-lg font-semibold mb-2">Ajouter un client</h3>
+            <a href="{{route('users.create')}}" class="text-blue-500 hover:text-blue-700">Ajouter</a>
         </div>
     </div>
 </div>
